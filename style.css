@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'CSSTitle';
+    src: url(./fonts/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf) format('truetype')
+        
+}       
+
+@font-face {
+    font-family: 'Table Text';
+    src:  url(./fonts/Merriweather/Merriweather-Italic.ttf) format('truetype')
+}
+   
+@font-face {
+    font-family: 'Tag Text';
+    src: url(./fonts/Tangerine/Tangerine-Regular.ttf) format('truetype')
+         url(./fonts/Tangerine/Tangerine-Bold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Table Font';
+    src: url(./fonts/Advent_Pro/AdventPro-Regular.ttf) format('truetype')
+}
+
+h1 {
+    font-family: 'CSSTitle';
+    font-size: 100px;
+    text-align: center;
+    background-image: url("./images/pinkmarble.jpg");
+
+}
+
+h2 {
+    font-family: 'Table Text';
+    font-size: 26px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.5em;
+
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;  
+}
+
+th {
+    border: 2px solid mediumslateblue;
+    background-color: rgb(233, 225, 218);
+}
+
+td {
+    border: 2px solid mediumslateblue;
+}
+
+.header { 
+    font-family: 'CSSTitle';
+    text-align: left;
+    letter-spacing: 0.5;
+    font-size: 30px;
+}
+
+#selector {
+    font-family: 'Tag Text';
+    font-style: italic;
+}
+
+.text {
+    font-family: 'Table Font';
+    font-weight: 600;
+    letter-spacing: 0.4;
+    word-spacing: 5px;
+}
